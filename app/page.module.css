@@ -166,3 +166,8 @@ a.secondary {
     filter: invert();
   }
 }
+
+a.link:hover {
+  text-decoration: underline;
+  color: #547429;
+}
