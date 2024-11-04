@@ -1,0 +1,33 @@
+.quantity-selector {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-selector__button {
+  background-color: #fff;
+  border: none;
+  border-radius: 100%;
+  color: #000;
+  font-size: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.quantity-selector__button:hover {
+  background-color: #ededed;
+}
+
+.quantity-selector__button:active {
+  background-color: #cacaca;
+}
+
+.quantity-selector__input {
+  border: 2px solid #eee;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  text-align: center;
+  width: 4rem;
+  padding-left: 1rem;
+  text-align: center;
+}
